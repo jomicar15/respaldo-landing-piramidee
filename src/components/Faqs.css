@@ -1,0 +1,12 @@
+.container-faqs .MuiPaper-root{
+    --Paper-shadow: none !important;
+    margin-bottom: '0px';
+}
+
+.MuiPaper-root-MuiAccordion-root .Mui-expanded{
+    margin: 0;
+}
+
+.container-faqs .MuiPaper-root::before{
+    display: none !important;
+}
